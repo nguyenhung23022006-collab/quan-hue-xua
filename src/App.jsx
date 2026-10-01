@@ -109,6 +109,7 @@ function App() {
 
   function xoaGioHang() {
     setGio([])
+    setThongBao('')
   }
 
   const tongPhan = gio.reduce(
