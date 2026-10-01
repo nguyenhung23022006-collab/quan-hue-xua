@@ -10,10 +10,8 @@ function FormDatMon({ onGui, choPhepGui }) {
   const [loi, setLoi] = useState({})
 
   useEffect(() => {
-    if (choPhepGui) {
-      oHoTen.current?.focus()
-    }
-  }, [choPhepGui])
+  oHoTen.current?.focus()
+    }, [])
 
   function kiemTra(ten, dienThoai) {
     const loiMoi = {}
